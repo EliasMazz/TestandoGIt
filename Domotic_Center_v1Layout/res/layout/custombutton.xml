@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent">
+
+<item android:state_pressed="true" >
+	<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<solid android:color="#F000"/>
+	<stroke android:width="1px" android:color="#BB000000" />
+	
+	<padding
+	android:left="10dp"
+	android:top="7dp"
+	android:right="10dp"
+	android:bottom="7dp"
+	/>
+	<!--  
+	<corners
+	android:bottomRightRadius="5dp"
+	android:bottomLeftRadius="5dp"
+	android:topLeftRadius="5dp"
+	android:topRightRadius="5dp"
+	/>
+	-->
+<gradient android:angle="180" android:startColor="#5EC722" android:centerColor="#5ACA1D" android:endColor="#69C234" android:type="linear"/>
+	
+
+	
+	</shape>
+</item>
+
+<item android:state_pressed="false" >
+    
+	<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<solid 
+	    
+	     android:background="@android:color/transparent"
+	    />
+	<stroke android:width="3px" android:color="#5EC722" />
+	<padding
+	android:left="10dp"
+	android:top="7dp"
+	android:right="10dp"
+	android:bottom="7dp"
+	/>
+	<!--  
+	<corners
+	android:bottomRightRadius="5dp"
+	android:bottomLeftRadius="5dp"
+	android:topLeftRadius="5dp"
+	android:topRightRadius="5dp"
+	/>
+	
+	
+	
+	 -->
+	
+	</shape>
+</item>
+
+
+</selector>

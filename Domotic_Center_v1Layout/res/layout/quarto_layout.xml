@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   
+    >
+ <ImageButton
+         android:id="@+id/addBtn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/transparent"
+         android:onClick="addItems"
+         android:src="@drawable/textbuttonlayout"
+         android:text="Add New Item"
+         android:textColor="@android:color/white" 
+      
+         
+         />
+
+	<!--  android:background="@layout/custombutton"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+   
+    >
+    
+ <LinearLayout
+     xmlns:app="http://schemas.android.com/apk/res/domotic.center.Domotic_Center_v1Layout"
+     android:layout_width="278dp"
+     android:layout_height="wrap_content"
+     android:gravity="left"
+     android:orientation="vertical"
+      >
+   
+		<ListView
+		    android:id="@+id/list"
+		    android:layout_width="257dp"
+		    android:layout_height="fill_parent"
+		    android:cacheColorHint="#00000000"
+		    android:drawSelectorOnTop="false" >
+
+		</ListView>
+  
+  </LinearLayout>
+
+ <LinearLayout
+      android:paddingTop="5dp"
+     xmlns:app="http://schemas.android.com/apk/res/domotic.center.Domotic_Center_v1Layout"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:orientation="vertical"
+     >
+
+     <ImageButton
+           
+         android:layout_width="wrap_content"
+         android:layout_height="115dp"
+         android:background="@layout/custombutton"
+         android:src="@drawable/controles_button_layout"
+         android:textColor="@android:color/white" />
+
+     <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="115dp"
+         android:background="@layout/custombutton"
+         android:src="@drawable/iluminacao_button_layout"
+         android:textColor="@android:color/white" />
+
+     <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="115dp"
+         android:layout_weight="1.40"
+         android:background="@layout/custombutton"
+         android:src="@drawable/sensores_button_layout"
+         android:textColor="@android:color/white" />
+ </LinearLayout>
+</LinearLayout>
+</LinearLayout>
